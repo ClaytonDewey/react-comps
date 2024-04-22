@@ -20,7 +20,7 @@ const TablePage = () => {
     {
       label: 'Score',
       render: (fruit) => fruit.score,
-      sort: () => {},
+      header: () => <th className='bg-red-500 px-2'>Score</th>,
     },
   ];
 

@@ -4,30 +4,30 @@ import Button from '../Button';
 const ButtonPage = () => {
   return (
     <div>
-      <div>
-        <Button className='mb-5' success rounded outline>
+      <div className='mb-5'>
+        <Button success rounded outline>
           <GoBell />
           Click me!!
         </Button>
       </div>
-      <div>
+      <div className='mb-5'>
         <Button danger outline>
           <GoCloudDownload />
           Buy Now!
         </Button>
       </div>
-      <div>
+      <div className='mb-5'>
         <Button warning>
           <GoDatabase />
           See Deal!
         </Button>
       </div>
-      <div>
+      <div className='mb-5'>
         <Button secondary outline>
           Hide Ads!
         </Button>
       </div>
-      <div>
+      <div className='mb-5'>
         <Button primary rounded>
           Something!
         </Button>
